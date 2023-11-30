@@ -3,9 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>À propos</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <table>
+     <tr>
+          <th><img width="50px" height="50px" src="Images/LOGO_original.png" alt="Photo ordinateur"/></th>
+          <th> <a href="page_d'acceuil.html">Page d'acceuil</a></th>
+          <th><a href="a_propos.html">À propos</a></th>
+          <th><a href="contacts.html">Contact</a></th>
+          <th><a href="Incontournables.html">Incontournables</a></th>
+          <th><img width="50px" height="50px" src="Images/Perso_banière_img_transparent_background.png" alt="Photo ordinateur"/></th>
+          <th><input type="text" name="Rechercher" id="Rechercher" placeholder="Rechercher"></textarea> </th>
+     </tr>
+    </table>
+
+     <!-- Texte consignes -->
+     <h3> Pour toutes questions ou commentaires, veuillez nous contacter :</h3>
+
+ <!-- Premier encadré du formulaire -->
+<fieldset>     
+<legend> Informations personnelles</legend>
+    <form method>
+        <label for="nom"> Nom : </label>
+        <input type="text" id="nom" nom="nom" placeholder="Nom" autofocus required> 
+        <label for="prénom"> Prénom : </label>
+        <input type="text" id="prénom" prénom="prénom" placeholder="Prénom">
+        <br><br><br>
+        <label for="email"> Addresse email : </label>
+        <input type="email" id="email" name="email" maxlength="30" placeholder="exemple@gmail.com">
+        <label for="phone"> Numéro de téléphone : </label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="11" placeholder="ex: 514-985-6452">
+        <br><br><br>
+        <label for="pays"> Pays où vous résidez : </label>
+        <select id="pays" name="pays">
+            <option value="Canada">Canada</option>
+            <option value="États-Unis">États-Unis</option>
+            <option value="Mexique">Mexique</option>
+            <option value="Royaume-Uni">Royaume-Uni</option>
+            <option value="France">France</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Chine">Chine</option>
+            <option value="Inde">Inde</option>
+            <option value="Australie">Australie</option>
+            <option value="Autre">Autre</option>
+        </select>
+        <label for="autre"> Si autre, veuillez spécifier : </label>
+        <input type="text" id="autre" nom="autre" placeholder=" Votre pays"> 
+        <br><br><br>
+        <label for="vous"> Vous êtes : </label>
+        <select id="vous" name="vous">
+            <option value="Étudiant">Aux études</option>
+            <option value="Travailleur">Au travail</option>
+            <option value="Travailleur">Retraité</option>
+            <option value="Travailleur">Autre</option>
+        </select>
+        <label for="age"> Votre âge : </label>
+        <input type="radio" name="radio" value="18-25" id="18-25"> <label for="18-25">18 - 25 </label>
+        <input type="radio" name="radio" value="25 - 35" id="25 - 35"> <label for="25 - 35">25 - 35 </label>
+        <input type="radio" name="radio" value="35 - 50" id="35 - 50"> <label for="35 - 50">35 - 50 </label>
+        <input type="radio" name="radio" value="50 - 65" id="50 - 65"> <label for="50 - 65">50 - 65 </label>
+        <input type="radio" name="radio" value="65 +" id="65 +"> <label for="65 +">65 + </label>
+    </form method>
+</fieldset>
+<br><br><br>
+
+<!-- Deuxième encadré du formulaire-->
+<fieldset>
+<legend> Commentaires</legend>
+<label for="raison"> Raison du message : </label>
+<select id="raison" name="raison">
+    <option value="En recherche d'informations">En recherches d'informations</option>
+    <option value="Questions vis-à-vis un futur voyage">Questions vis-à-vis un futur voyage</option>
+    <option value="??">??</option>
+    </select>
+    <br><br><br>
+    <label for="avis"> Nous serons ravis d'avoir votre avis ! </label>
+    <br>
+    <textarea name="feedback" id="feedback"  rows="5"  placeholder="Posez-nous vos questions ou bien laissez-nous votre avis !"></textarea>
+</fieldset>
+<br><br>
+
+<!--Bouton Envoyer-->
+<input type="submit" value="Envoyer" class="submit-btn" />
+
+<!--Contact par téléphone-->
+<h3> Vous préférez communiquer par téléphone ? Pas de soucis !</h3>
+
+<!-- FAIRE EN FLEXBOX PIPI CACA-->
+ <!-- <table>        
+<tr>
+    <td> Numéro gratuit partout au Canada et au États-Unis </td> 
+    <td> Partout dans le monde </td>
+</tr>
+<tr>
+    <td> (1) 514-965-3256 </td>
+    <td> (1) 514-451-1364</td>
+</tr>
+</table> -->
+
+<a href="#haut">Haut de page</a>
