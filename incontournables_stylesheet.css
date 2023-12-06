@@ -3,3 +3,13 @@
 .container{
     display: flex;  
   }
+
+  /*flexbox*/
+.container2{
+  display: flex; 
+}
+
+  /*flexbox*/
+  .container3{
+    display: flex;  
+  }
