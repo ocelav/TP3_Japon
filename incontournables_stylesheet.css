@@ -11,7 +11,8 @@
     width: 100px;
     height: 30px;
     background-color: #1B1414;
-    color: #FFF;
+    color: #ffffff;
+
     font-size: 13px;
     text-align: center;
     padding: 10px;
@@ -23,7 +24,7 @@
     width: 100px;
     height: 30px;
     background-color: #1B1414;
-    color: #FFF;
+    color: #ffffff;
     font-size: 13px;
     text-align: center;
     padding: 10px;
@@ -78,24 +79,61 @@
 
   .h1{
     color: #FFF;
-    text-align: center;
   }
-   
+  .blanc1{
+    align-items:center;
+    width: 500px;
+    height:3px;
+    border: 0 none;
+    margin-right: auto;
+    margin-left: 1px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #FFF;
+    filter: blur(1px);
+  }
 
-  /*flexbox*/
-.container2{
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly; 
+.blanc2{
+  align-items:center;
+  width: 500px;
+  height:3px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #FFF;
+  filter: blur(1px);
 }
 
-  /*flexbox*/
-  .container3{
-    display: flex; 
-    align-items: flex-end; 
-    justify-content: center ;
-    justify-content: space-between;
-  }
+.blanc3{
+  align-items:center;
+  width: 500px;
+  height:3px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #FFF;
+  filter: blur(1px);
+}
+.blanc4{
+  align-items:center;
+  width: 500px;
+  height:3px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #FFF;
+  filter: blur(1px);
+}
+   
+
+ 
+  
     
   .element1{
     color: #FFF;
@@ -114,15 +152,8 @@
     line-height: 150%; /* 54px */
     letter-spacing: -0.792px;
   }
-
-
-   /*flexbox*/
-   .container4{
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;  
-    align-items: flex-end;
-  }
+      
+  
 
 .element5{
   color: #FFF;
@@ -135,35 +166,17 @@ letter-spacing: -0.352px;
 }
 
 .element6{
-  text-align: right;
   color: #FFF;
-font-family: Khula;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 24px */
-letter-spacing: -0.352px;
 }
 
 .element7{
   color: #FFF;
-font-family: Khula;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 24px */
-letter-spacing: -0.352px;
+
 }
 
 .element8{
-  text-align:right;
   color: #FFF;
-font-family: Khula;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 24px */
-letter-spacing: -0.352px;
+
 }
 
 .element9{
@@ -171,19 +184,12 @@ letter-spacing: -0.352px;
 }
 
 .element10{
-  text-align: right;
   color: #FFF;
 }
 
 .element11{
-  text-align: right;
   color: #FFF;
-font-family: Khula;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 24px */
-letter-spacing: -0.352px;
+
 }
 
 /* Barre de navigation*/
