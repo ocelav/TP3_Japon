@@ -1,31 +1,84 @@
 
-body {background-color: #1B1414;}
-
-.h1{
-  color: #FFF;
-  text-align: center;
-}
-
-.header{
-  height: 100px;
-  width: 100px;
-  padding: 20px;
-  margin: 50px;
-  border: 10px solid black;
- background-color: #d30000;
-}
-
-
 /*flexbox*/
 .container{
   height: 100px;
-  width: 1250px;
-  padding: 20px;
-  margin: 50px;
+  width: 1900px;
  background-color: #9B3012;
   display: flex;
-  align-self: flex-start;
-  -ms-flex-align: start;
+  }
+  
+  .button1{
+    width: 100px;
+    height: 30px;
+    background-color: #1B1414;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+  .button2{
+    width: 100px;
+    height: 30px;
+    background-color: #1B1414;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+  .button3{
+    width: 100px;
+    height: 30px;
+    background-color: #1B1414;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+  .button4{
+    width: 100px;
+    height: 30px;
+    background-color: #1B1414;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+
+
+
+  .elementelementone{
+    width: 600px;
+
+  }
+
+  .elementelementtwo{
+    display: flex;
+    gap: 2rem;
+
+  }
+
+  .elementelementtwo{
+    width: 1000px;
+  }
+
+  
+  body {background-color: #1B1414;}
+
+  .h1{
+    color: #FFF;
+    text-align: center;
   }
    
 
