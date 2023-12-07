@@ -1,11 +1,9 @@
 
-.text{
-  background-color: black;
-  
-}
+body {background-color: #1B1414;}
 
 .h1{
   color: #FFF;
+  text-align: center;
 }
 
 .header{
@@ -40,14 +38,17 @@
 
   /*flexbox*/
   .container3{
-    display: flex;  
+    display: flex; 
+    align-items: flex-end; 
+    justify-content: center ;
+    justify-content: space-between;
   }
     
-  .elementone{
+  .element1{
     color: #FFF;
   }
 
-  .elementtwo{
+  .element2{
     color: #FFF;
   }
 
@@ -67,5 +68,100 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;  
+    align-items: flex-end;
   }
 
+.element5{
+  color: #FFF;
+font-family: Khula;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.352px;
+}
+
+.element6{
+  text-align: right;
+  color: #FFF;
+font-family: Khula;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.352px;
+}
+
+.element7{
+  color: #FFF;
+font-family: Khula;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.352px;
+}
+
+.element8{
+  text-align:right;
+  color: #FFF;
+font-family: Khula;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.352px;
+}
+
+.element9{
+  color: #FFF;
+}
+
+.element10{
+  text-align: right;
+  color: #FFF;
+}
+
+.element11{
+  text-align: right;
+  color: #FFF;
+font-family: Khula;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: -0.352px;
+}
+
+/* Barre de navigation*/
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9B3012;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* cahnge couleur quand passe la souris et garder la couleur sur la page sélectionnée*/
+li a:hover:not(.active) {
+  background-color: #1B1414;
+}   
+
+.active{
+  background-color: #1B1414;
+}

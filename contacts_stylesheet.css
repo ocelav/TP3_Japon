@@ -1,5 +1,57 @@
+body {background-color: #1B1414;}
+
+.h1{
+  color: #FFF;
+  text-align: center;
+}
+
+.h2{
+  color: #FFF;
+}
+
+.form1{
+  color: #FFF;
+  justify-content: space-between;
+}
+
+.form2{
+  color: #FFF;
+}
 
 /*flexbox*/
 .container{
     display: flex;  
   }
+
+  /* Barre de navigation*/
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #9B3012;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* change couleur quand passe la souris et garder la couleur sur la page sélectionnée*/
+li a:hover:not(.active) {
+  background-color: #1B1414;
+}   
+
+.active{
+  background-color: #1B1414;
+}
