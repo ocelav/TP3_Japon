@@ -1,16 +1,22 @@
 
 /*flexbox*/
 .container{
-    display: flex;  
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly; 
   }
+   
 
   /*flexbox*/
 .container2{
-  display: flex; 
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly; 
 }
 
   /*flexbox*/
   .container3{
+<<<<<<< Updated upstream
     display: flex;  
   }
 
@@ -25,3 +31,16 @@
   }
 
   
+=======
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;  
+  }
+
+   /*flexbox*/
+   .container4{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;  
+  }
+>>>>>>> Stashed changes
