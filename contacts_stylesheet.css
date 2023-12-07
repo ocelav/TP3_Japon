@@ -23,6 +23,19 @@ body {background-color: #1B1414;}
     display: flex;  
   }
 
+.gratuit{
+  display: flex;  
+  color: #FFF;
+  flex-direction: column;
+}
+
+.monde{
+  display: flex;  
+  color: #FFF;
+  flex-direction: column;
+}
+
+
   /* Barre de navigation*/
 ul {
   margin: 0;
