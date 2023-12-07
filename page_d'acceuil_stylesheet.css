@@ -5,20 +5,118 @@
   }
 
 h1{
-  width: 274px;
-  height: 27px;
-  flex-shrink: 0;
+text-align: center;
 
-  color: #FFF;
-  font-family: Inknut Antiqua;
-  font-size: 128px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%; /* 192px */
-  letter-spacing: -2.816px;
+color: #FFF;
+font-family: Inknut Antiqua;
+font-size: 128px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+letter-spacing: -2.816px;
 }
 
 h5{
+  text-align: center;
+
+  color: #FFF;
+  font-family: Kavivanar;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+  letter-spacing: -0.528px;
+  
+}
+
+.blanc1{
+  align-items:center;
+  width: 200px;
+  height:3px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: 228px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  background: #FFF;
+  filter: blur(1px);
+
+}
+.rouge1{
+  width: 252px;
+  height:5px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #9B3012;
+  filter: blur(1px);
+}
+
+.blanc2{
+  align-items: center;
+  width: 200px;
+  height:3px;
+  border: 0 none;
+  margin-right: auto;
+  margin-left: 228px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  background: #FFF;
+  filter: blur(1px);
+
+}
+
+.blanc3{
+  align-items:center;
+  width: 200px;
+  height:3px;
+  border: 0 none;
+  margin-right: 228px;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  background: #FFF;
+  filter: blur(1px);
+
+}
+.rouge2{
+  width: 252px;
+  height:5px;
+  border: 0 none;
+  margin-right: 200px;
+  margin-left: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: #9B3012;
+  filter: blur(1px);
+}
+
+.blanc4{
+  align-items: center;
+  width: 200px;
+  height:3px;
+  border: 0 none;
+  margin-right: 228px;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  background: #FFF;
+  filter: blur(1px);
+
+}
+
+.container1{
+  display: flex;
+  align-items: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+p{
   width: 505px;
   height: 180px;
   flex-shrink: 0;
@@ -30,7 +128,15 @@ h5{
   font-weight: 400;
   line-height: 150%; /* 36px */
   letter-spacing: -0.528px;
-  
+}
+
+.video{
+  text-align: center;
+  margin-top: 0px;
+}
+
+.videoyt{
+  text-align: center;
 }
 
 .container {

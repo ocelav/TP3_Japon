@@ -5,7 +5,7 @@ body {background-color: #1B1414;}
   display: flex;  
 }
 
-.paragraphe1{
+.p1{
   color: #FFF;
 font-family: Khula;
 font-size: 22px;
@@ -15,10 +15,116 @@ line-height: 150%; /* 33px */
 letter-spacing: -0.484px;
 }
 
-.PremierTitre{
+.titre1{
   color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
 }
 
+
+.p2{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.p3{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.p4{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.p5{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.p6{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.titre2{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.indentification1{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.oceane{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.identification2{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
+
+.marie{
+  color: #FFF;
+font-family: Khula;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 33px */
+letter-spacing: -0.484px;
+}
 /* Barre de navigation*/
 ul {
   margin: 0;
@@ -27,6 +133,7 @@ ul {
   background-color: #9B3012;
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
 }
 
