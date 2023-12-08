@@ -11,17 +11,17 @@ font-family: Khula;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 33px */
+line-height: 150%; 
 letter-spacing: -0.484px;
 }
 
 .titre1{
   color: #FFF;
 font-family: Khula;
-font-size: 22px;
+font-size: 30px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 33px */
+line-height: 150%; 
 letter-spacing: -0.484px;
 }
 
@@ -32,7 +32,7 @@ font-family: Khula;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 33px */
+line-height: 150%; 
 letter-spacing: -0.484px;
 }
 
@@ -42,7 +42,7 @@ font-family: Khula;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 33px */
+line-height: 150%; 
 letter-spacing: -0.484px;
 }
 
@@ -52,7 +52,7 @@ font-family: Khula;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 33px */
+line-height: 150%; 
 letter-spacing: -0.484px;
 }
 
@@ -62,7 +62,7 @@ font-family: Khula;
 font-size: 22px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 33px */
+line-height: 150%; 
 letter-spacing: -0.484px;
 }
 
@@ -79,7 +79,7 @@ letter-spacing: -0.484px;
 .titre2{
   color: #FFF;
 font-family: Khula;
-font-size: 22px;
+font-size: 30px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 33px */
@@ -99,7 +99,7 @@ letter-spacing: -0.484px;
 .oceane{
   color: #FFF;
 font-family: Khula;
-font-size: 22px;
+font-size: 25px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 33px */
@@ -126,35 +126,76 @@ line-height: 150%; /* 33px */
 letter-spacing: -0.484px;
 }
 /* Barre de navigation*/
-ul {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #9B3012;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-li {
-  float: left;
+.container{
+  height: 100px;
+  width: 1900px;
+ background-color: #9B3012;
+  display: flex;
+  }
   
-}
+  .button1{
+    width: 100px;
+    height: 30px;
+    background-color: #f0e3e3;
+    color: #ffffff;
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
 
-/* cahnge couleur quand passe la souris et garder la couleur sur la page sélectionnée*/
-li a:hover:not(.active) {
-  background-color: #1B1414;
-}   
+  .button2{
+    width: 100px;
+    height: 30px;
+    background-color:  #f0e3e3;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
 
-.active{
-  background-color: #1B1414;
-}
+  .button3{
+    width: 100px;
+    height: 30px;
+    background-color: #f0e3e3;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+  .button4{
+    width: 100px;
+    height: 30px;
+    background-color:  #f0e3e3;
+    color: #FFF;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  
+  }
+
+
+
+
+  .elementelementone{
+    width: 600px;
+
+  }
+
+  .elementelementtwo{
+    display: flex;
+    gap: 2rem;
+
+  }
+
+  .elementelementtwo{
+    width: 1000px;
+  }
